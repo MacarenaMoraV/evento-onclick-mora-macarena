@@ -17,13 +17,23 @@ El proyecto sigue esta lógica:
 
 ---
 
-## 🖼️ Vista general
+## ⚙️ Funciones solicitadas:
 
-La página incluye:
+La página debe incluir:
 
-* Header con buscador y botón de sesión
-* Tarjetas con imágenes, descripción y botón de “like”
-* Barra lateral con botón para registrar observaciones
+* Cuando sé de clic en el botón “Iniciar sesión” este debe cambiar a “Cerrar sesión”.
+* Cuando se da clic en “Agregar Observación” el botón debe desaparecer.
+* Cuando se da clic en “Me gusta” para una de las definiciones se dispara una alarma indicando que te gusto la definición junto con el título de la misma.
+* Cada vez que se le da clic al botón de like de cada definición, este debe aumentar el conteo de likes de cada definición.
+---
+
+## 🖼️ Modelo sugerido para realizar el proyecto
+
+<img width="1075" height="348" alt="resultado" src="https://github.com/user-attachments/assets/cfcb9b3f-5048-48ba-93ea-f8d5329d731f" />
+
+## 🖼️ Imagen Final del Proyecto
+
+<img width="1512" height="840" alt="Resultado_final_maca" src="https://github.com/user-attachments/assets/c772368d-1dac-406a-ad5e-f3ddbdbd3c10" />
 
 ---
 
@@ -32,3 +42,4 @@ La página incluye:
 Macarena Mora Veloso.
 
 Bootcamp Desarrollo Front-end con JavaScript/ SkillNest
+
