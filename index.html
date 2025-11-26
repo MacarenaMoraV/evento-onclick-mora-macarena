@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Macarena Mora V, macarena.mora25@gmail.com">
+    <title>Aves de Chile | Evento onclick</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Aves de Chile</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar aves">
+        </div>
+        <button id="btn-sesion" onclick="cambiarSesion()">Iniciar sesión</button>
+    </header>
+
+    <main class="contenedor">
+        <div class="main-content"> 
+
+            <div class="definition-card">
+                <div class="title-and-image">
+                    <h2>Golondrina</h2>
+                    <img src="static/images/golondrina.png" alt="Imagen de una Golondrina" class="Like-Ave">
+                </div>
+                <p>En Chile es regular verla durante todo el año entre las regiones de Atacama y Los Ríos. Se caracteriza por su plumaje azul metálico, alas grises y vientre y rabadilla de color blanco. Es un eficiente cazador de insectos voladores.</p>
+
+                <div class="likes-container">
+                    <button id="likeButtonGolondrina" onclick="darLike('Golondrina')">
+                        <span id="likeContadorGolondrina">0</span> Me gusta
+                    </button>
+                </div>
+            </div> 
+
+            <div class="definition-card">
+                <div class="title-and-image">
+                    <h2>Loica</h2> 
+                    <img src="static/images/loica.png" alt="Imagen de una Loica" class="Like-Ave">
+                </div>
+                <p>Se distribuye en Chile, desde Antofagasta hasta Cabo de Hornos. El macho adulto se caracteriza por su plumaje parduzco oscuro, pecho de vistoso color rojo, ceja blanquecina y pico largo y puntiagudo. La hembra se diferencia por presentar colores más pálidos en su plumaje. Su dieta comprende principalmente insectos, semillas y pequeños frutos.</p>
+
+                <div class="likes-container">
+                    <button class="btn-like" data-title="Loica" onclick="darLike('Loica')">
+                        <span id="likeContadorLoica">0</span> Me gusta
+                    </button>
+                </div>
+            </div>
+        </div> 
+        <div class="sidebar">
+            <div class="definition-section">
+                <p>Ingresa tu registro de aves observadas.</p>
+                <button id="btn-agregar" onclick="ocultarBoton()">Agregar Observación</button>
+            </div>
+        </div>
+    </main>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
